@@ -46,7 +46,24 @@ a {
 }
 
 .home {
-  width:50%;
+  width:75%;
+}
+
+.home-container {
+  display: flex;
+}
+
+.main {
+  width: 75%;
+}
+
+.state {
+  background-color: #F7F9FA;
+  width: 45%;
+}
+
+.state ul {
+  padding: 0;
 }
 
 .home ul {

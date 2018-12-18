@@ -5,7 +5,7 @@ class SideBar extends Component {
     return (
       <div className="sideBar">
         <ul>
-          <li><i class="fab fa-dropbox"></i></li>
+          <li><i className="fab fa-dropbox"></i></li>
         </ul>
         <ul>
           <li>Profile</li>

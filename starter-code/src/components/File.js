@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 
 class File extends Component {
+
+
   render() {
     return (
       <li className="file__item">
@@ -13,9 +15,6 @@ class File extends Component {
             <p className="file__meta">
               <span className="file__name">{this.props.nameFile}</span> <br />
               <span>{this.props.date}</span>
-              <button className="file__button">
-                <i className="fa fa-download"></i>
-              </button>
             </p>
           </div>
         </div>
